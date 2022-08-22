@@ -1,7 +1,6 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +13,20 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-server-express": "^3.10.1",
+    "graphql": "^16.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahgormley/Book-Search-Engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarahgormley/Book-Search-Engine/issues"
+  },
+  "homepage": "https://github.com/sarahgormley/Book-Search-Engine#readme",
+  "description": ""
 }
